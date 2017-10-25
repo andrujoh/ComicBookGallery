@@ -16,3 +16,27 @@ textarea {
     max-width: 280px;
 }
 
+.backbar {
+  width: 100%;
+  background: #555;
+  margin-top: -10px;
+}
+
+  .backbar .btn {
+    margin-top: 4px;
+  }
+
+.series-list {
+  padding: 0;
+}
+
+.series-list li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.series-list li:last-child {
+  border: none;
+}
